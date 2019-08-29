@@ -8,13 +8,15 @@
     "knex:make": "cross-env NODE_ENV=development knex migrate:make --knexfile src/knexfile.js",
     "knex:migrate": "cross-env NODE_ENV=development knex migrate:latest --knexfile src/knexfile.js",
     "knex:rollback": "cross-env NODE_ENV=development knex migrate:rollback --knexfile src/knexfile.js",
-    "knex:seed": "cross-env NODE_ENV=development knex seed:run --knexfile src/knexfile.js" 
+    "knex:seed": "cross-env NODE_ENV=development knex seed:run --knexfile src/knexfile.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "knex": "^0.19.2",
+    "objection": "^1.6.9",
+    "objection-password": "^2.0.0",
     "pg": "^7.12.1"
   },
   "devDependencies": {
