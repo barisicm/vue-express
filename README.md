@@ -15,10 +15,16 @@ This project is supposed to be a learning example of how to build a real life ap
 [Yarn] used for package management.
 Currently only development environment is available. 
 
-How to run vue and express. NOTE: express has more magic behind the serve command.
+How to run vue and express : 
 Run vue
 ```sh
 $ yarn serve
 ```
+
+NOTE: express serve command has been configured to do the following : 
+  - NODE_ENV=development
+  - nodemon
+  - cross-env
+  - src/server.js
 
 [Yarn]: <https://yarnpkg.com/en/>
