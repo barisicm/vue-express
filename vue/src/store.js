@@ -11,6 +11,11 @@ export default new Vuex.Store({
       username: ""
     }
   },
+  getters:{
+    isAuthenticated(state){
+      return !!state.user.id;
+    }
+  },
   mutations: {
     CURRENT_USER_FETCHED(state, user) {
       state.user.id = user.id;
