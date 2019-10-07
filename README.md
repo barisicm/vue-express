@@ -27,4 +27,6 @@ NOTE: express serve command has been configured to do the following :
   - cross-env
   - src/server.js
 
+NOTE 2: Development of this application is taking a step back at least until Rem Opens up further subscriptions to his content.
+
 [Yarn]: <https://yarnpkg.com/en/>
