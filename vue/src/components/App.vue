@@ -2,7 +2,9 @@
   <div>
       <navigation-bar/>
 
-      <div v-if="loading">Loading ...</div>
+      <div v-if="loading">
+          <centered-loader/>
+      </div>
       <div v-if="!loading && !error">
           <div class="container mt-4">
               <div class="card">
